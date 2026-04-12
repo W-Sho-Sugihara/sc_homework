@@ -1,5 +1,8 @@
+# added a return date 30 days from purchase
+
 import csv
 from os import path
+from datetime import datetime, timedelta
 
 PRICE_INDEX = 2
 PRODUCT_NAME_INDEX = 1
@@ -8,6 +11,8 @@ def main():
     products_dict = read_dictionary(path.join(path.dirname(__file__), "products.csv"), 0)
     subtotal = 0.0
     item_count = 0
+    now = datetime.now()
+    return_by = (datetime.now() + timedelta(days=30)).replace(hour=21, minute=0, second=0, microsecond=0)
 
     try:  
         with open(path.join(path.dirname(__file__), "request.csv"), "rt") as f:
@@ -23,7 +28,9 @@ def main():
             print(f"Subtotal: ${subtotal: .2f}")
             print(f"Tax: ${subtotal * .06: .2f}")
             print(f"Total: ${subtotal * 1.06: .2f}")
+            print(now.strftime("%Y-%m-%d %H:%M:%S"))
             print("Thank you for shopping with us today!")
+            print(f"Return by: {return_by.strftime('%B %d, %Y at %I:%M %p')}")
     except FileNotFoundError as e:
         print(f"Given file not found: {e}")
     except PermissionError as e:

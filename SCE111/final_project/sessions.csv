@@ -1,0 +1,51 @@
+session_id,game_id,game_name,date_played,players,winner,duration_minutes
+001,009,Codenames,2026-01-03,Alice;Bob;Carol;Dave,Alice,35
+002,001,Catan,2026-01-05,Alice;Bob;Carol,Bob,95
+003,003,Pandemic,2026-01-05,Alice;Dave,Alice,65
+004,007,Azul,2026-01-10,Alice;Bob,Alice,50
+005,002,Ticket to Ride,2026-01-12,Alice;Bob;Carol,Carol,80
+006,004,Carcassonne,2026-01-15,Bob;Dave,Dave,45
+007,001,Catan,2026-01-18,Alice;Bob;Carol;Dave,Alice,110
+008,011,Splendor,2026-01-20,Alice;Carol,Carol,35
+009,009,Codenames,2026-01-22,Alice;Bob;Carol;Dave,Bob,30
+010,008,Wingspan,2026-01-25,Alice;Bob;Carol,Alice,75
+011,003,Pandemic,2026-01-28,Bob;Carol;Dave,Carol,70
+012,001,Catan,2026-02-01,Alice;Bob;Carol,Carol,100
+013,007,Azul,2026-02-03,Alice;Dave,Dave,45
+014,012,7 Wonders,2026-02-07,Alice;Bob;Carol;Dave,Bob,45
+015,002,Ticket to Ride,2026-02-10,Alice;Bob,Alice,70
+016,005,Gloomhaven,2026-02-14,Alice;Bob;Carol,Alice,130
+017,009,Codenames,2026-02-17,Alice;Bob;Carol;Dave,Carol,25
+018,011,Splendor,2026-02-20,Bob;Dave,Bob,30
+019,008,Wingspan,2026-02-22,Alice;Carol,Alice,80
+020,001,Catan,2026-02-25,Alice;Bob;Dave,Dave,90
+021,014,Root,2026-03-01,Alice;Bob;Carol;Dave,Dave,95
+022,007,Azul,2026-03-04,Alice;Bob,Bob,40
+023,003,Pandemic,2026-03-07,Alice;Bob;Carol,Alice,60
+024,009,Codenames,2026-03-10,Alice;Bob;Carol;Dave,Alice,30
+025,006,Terraforming Mars,2026-03-15,Alice;Bob;Carol,Carol,160
+026,001,Catan,2026-03-17,Alice;Bob;Carol,Bob,105
+027,013,Blood Rage,2026-03-19,Alice;Bob;Carol;Dave,Dave,95
+028,004,Carcassonne,2026-03-21,Alice;Carol,Alice,50
+029,008,Wingspan,2026-03-23,Bob;Carol;Dave,Carol,85
+030,011,Splendor,2026-03-25,Alice;Bob,Alice,30
+031,009,Codenames,2026-03-27,Alice;Bob;Carol;Dave,Dave,35
+032,002,Ticket to Ride,2026-03-29,Alice;Bob;Carol,Bob,75
+033,015,Betrayal at House on the Hill,2026-03-31,Alice;Bob;Carol;Dave,Alice,65
+034,007,Azul,2026-04-01,Bob;Carol,Carol,45
+035,001,Catan,2026-04-02,Alice;Bob;Dave,Alice,100
+036,003,Pandemic,2026-04-02,Alice;Carol,Carol,55
+037,012,7 Wonders,2026-04-03,Alice;Bob;Carol;Dave,Alice,50
+038,010,Dominion,2026-04-03,Bob;Dave,Dave,35
+039,006,Terraforming Mars,2026-04-04,Alice;Bob;Carol;Dave,Bob,155
+040,009,Codenames,2026-04-04,Alice;Bob;Carol;Dave,Bob,30
+041,005,Gloomhaven,2026-04-05,Alice;Bob;Carol,Carol,140
+042,011,Splendor,2026-04-05,Alice;Dave,Alice,35
+043,014,Root,2026-04-06,Alice;Bob;Carol;Dave,Carol,100
+044,008,Wingspan,2026-04-06,Alice;Bob,Bob,70
+045,001,Catan,2026-04-07,Alice;Bob;Carol,Carol,95
+046,010,Dominion,2026-04-07,Alice;Carol,Alice,30
+047,002,Ticket to Ride,2026-04-07,Bob;Carol;Dave,Dave,80
+048,007,Azul,2026-04-08,Alice;Bob;Carol,Alice,45
+049,013,Blood Rage,2026-04-08,Alice;Bob;Carol;Dave,Bob,90
+050,003,Pandemic,2026-04-08,Alice;Bob;Dave,Alice,65

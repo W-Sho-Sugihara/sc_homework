@@ -1,0 +1,58 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+    Board Game Collection & Play Tracker
+2. What real-world problem will your program address or help to solve?
+    Board game hobbyists often struggle to keep track of their growing collections, log play sessions, and remember which games they've played, how many times, and with whom. This program will help players manage their collection, log game sessions with date and player info, track win/loss records, and see statistics like most played games and average play frequency. It solves the real problem of disorganized collection management and missing play history that many hobbyists face.
+3. What will you learn from developing this program?
+    -How to read from and write to CSV files to persist data between program runs
+    -How to use the datetime module to record and calculate play session dates
+    -How to build reusable functions that accept parameters and return results
+    -How to write and run pytest test functions to verify program correctness
+    -How to organize a multi-function Python program around a real-world use case
+4. What Python modules will your program use?
+    CSV, datetime, pytest, os.path
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. List the names of functions you will need?
+    -load_collection(file_name) — reads the games CSV and returns a dictionary of games
+    -load_sessions(file_name) — reads the play sessions CSV and returns a list of session records
+    -get_play_count(game_name, sessions) — returns how many times a game has been played
+    -get_last_played(game_name, sessions) — returns the most recent date a game was played
+    -get_most_played(sessions) — returns the name of the game with the most logged sessions
+    -get_win_counts(player_name, sessions) — returns the number of wins for a given player
+    -days_since_played(game_name, sessions) — returns the number of days since a game was last played
+    -add_session(game_name, players, winner, date, sessions) — adds a new session record and returns the updated list
+    -display_collection(collection) — prints all games in the collection
+    -display_stats(game_name, sessions) — prints play count, last played, and days since played for a game
+    -prompt_log_session(collection, sessions) — prompts user to log a new play session
+    -main() — runs the program loop and ties all functions together
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+6. List the names of the test functions you will write.
+    -test_get_play_count() — verifies correct count is returned for a known game
+    -test_get_last_played() — verifies the correct most recent date is returned
+    -test_get_most_played() — verifies the highest played game is identified correctly
+    -test_get_win_counts() — verifies win totals are accurate for a given player
+    -test_days_since_played() — verifies the correct number of days is calculated
+    -test_add_session() — verifies a new session is correctly added to the session list

@@ -1,0 +1,16 @@
+game_id,game_name,category,min_players,max_players,avg_play_time_minutes,year_published
+001,Catan,Strategy,3,4,90,1995
+002,Ticket to Ride,Strategy,2,5,75,2004
+003,Pandemic,Cooperative,2,4,60,2008
+004,Carcassonne,Tile Placement,2,5,45,2000
+005,Gloomhaven,Dungeon Crawler,1,4,120,2017
+006,Terraforming Mars,Strategy,1,5,150,2016
+007,Azul,Abstract,2,4,45,2017
+008,Wingspan,Engine Building,1,5,70,2019
+009,Codenames,Party,2,8,30,2015
+010,Dominion,Deck Building,2,4,30,2008
+011,Splendor,Engine Building,2,4,30,2014
+012,7 Wonders,Card Drafting,2,7,40,2010
+013,Blood Rage,Area Control,2,4,90,2015
+014,Root,Asymmetric,2,4,90,2018
+015,Betrayal at House on the Hill,Thematic,3,6,60,2004
