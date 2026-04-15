@@ -1,4 +1,4 @@
-game_id,game_name,category,min_players,max_players,avg_play_time_minutes,year_published
+id,game_name,category,min_players,max_players,avg_play_time_minutes,year_published
 001,Catan,Strategy,3,4,90,1995
 002,Ticket to Ride,Strategy,2,5,75,2004
 003,Pandemic,Cooperative,2,4,60,2008
@@ -14,3 +14,5 @@ game_id,game_name,category,min_players,max_players,avg_play_time_minutes,year_pu
 013,Blood Rage,Area Control,2,4,90,2015
 014,Root,Asymmetric,2,4,90,2018
 015,Betrayal at House on the Hill,Thematic,3,6,60,2004
+16,flip 7,luck,2,14,20,2025
+17,Harvest,cards,2,6,15,1995

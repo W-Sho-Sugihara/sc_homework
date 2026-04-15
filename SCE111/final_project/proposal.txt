@@ -34,7 +34,7 @@ CSE 111 Proposal for a Student Chosen Program
     -days_since_played(game_name, sessions) — returns the number of days since a game was last played
     -add_session(game_name, players, winner, date, sessions) — adds a new session record and returns the updated list
     -display_collection(collection) — prints all games in the collection
-    -display_stats(game_name, sessions) — prints play count, last played, and days since played for a game
+    -display_stats(game_name, sessions) — prints play count and last played
     -prompt_log_session(collection, sessions) — prompts user to log a new play session
     -main() — runs the program loop and ties all functions together
 

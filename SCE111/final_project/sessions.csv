@@ -1,4 +1,4 @@
-session_id,game_id,game_name,date_played,players,winner,duration_minutes
+id,game_id,game_name,date_played,players,winner,duration_minutes
 001,009,Codenames,2026-01-03,Alice;Bob;Carol;Dave,Alice,35
 002,001,Catan,2026-01-05,Alice;Bob;Carol,Bob,95
 003,003,Pandemic,2026-01-05,Alice;Dave,Alice,65
@@ -49,3 +49,6 @@ session_id,game_id,game_name,date_played,players,winner,duration_minutes
 048,007,Azul,2026-04-08,Alice;Bob;Carol,Alice,45
 049,013,Blood Rage,2026-04-08,Alice;Bob;Carol;Dave,Bob,90
 050,003,Pandemic,2026-04-08,Alice;Bob;Dave,Alice,65
+051,016,flip 7,2026-04-10,sho;elia;rie;naoko,Elia,40
+52,16,Flip 7,2025-04-15,sho;Kosei;Rie,Rie,25
+53,17,Harvest,2026-03-26,emma;maya;kosei;mia;sho,Mia,20
